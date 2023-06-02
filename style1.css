@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    border: 6px solid rgb(16, 227, 16);
+}
+
+.parent1 {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url(https://th.bing.com/th?id=OIP.b6SlToFpSVjVLZ-dDju5ZwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child {
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    border-radius: 40px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.child1 {
+    width: 20%;
+    height: 130px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 50px;
+
+}
+
+.child2 {
+    width: 35%;
+    height: 40px;
+    margin-left: -330px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 100px;
+
+
+}
+
+.child3 {
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+}
+
+.Circle {
+    background-color: rgb(1, 143, 199);
+    border: 8px solid gray;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    margin-top: -100px;
+ 
+    display: inline-block;
+}
+
+.circletext {
+    margin-top: 100px;
+    line-height: 50px;
+    margin-bottom: 150px;
+}
+
+.box {
+    border: 8px dashed red;
+    width: 480px;
+    height: 800px;
+    font-size: 18px;
+    background-color: white;
+    display: inline-block;
+
+
+}
+
+.box,
+h1 {
+    color: rgb(212, 79, 79);
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    gap: 30px;
+    width: 98%;
+    margin: 50px;
+
+
+}
+
+
+.ABC {
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(109, 249, 249);
+    border: 2px solid rgb(7, 49, 7);
+    /* padding-left: 30px; */
+    margin: 20px;
+    /* padding-left: 30px; */
+
+}
+
+.ABC h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.ABC1 {
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    border-radius: 40px;
+    font-style: italic;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.parent10{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
